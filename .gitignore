@@ -1,0 +1,21 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large videos stay out of git. The short clips in media/ are small enough to commit.
+*.mov
+*.avi
+*.mkv
+*.mp4
+!media/*.mp4
+
+# Source code stays private until December 2026
+*.mpy
+src/
