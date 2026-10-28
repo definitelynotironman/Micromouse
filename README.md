@@ -312,8 +312,6 @@ The five test scores are then added up to a total out of 60.
 
 My mouse got the full 90% for the mission on all five tests, with no collisions. It also got the full speedup bonus every time, because my sprint was about twice as fast as exploring. The only marks I lost were on the sprint speed bonus. My sprints ran at 0.199 to 0.229 m/s, which is only a third to a half of the way from 0.15 to the 0.30 m/s needed for the full bonus. That is why each test sits at 97% or 98% instead of 100%.
 
-On my real mouse, every turn settled within ±1.7 degrees of its target. The pirouette measured -358 degrees on the gyro, so it ended 0.7 degrees short of a perfect full circle.
-
 ## Limitations and next steps
 
 My sprint still stops and spins at every corner. The top sprint bonus needs 0.30 m/s, and my best safe result is about 0.21 m/s. Getting there needs smooth turns at speed, which needs better position sensing at the corners. The forward speed is also open loop, so it changes with the battery level.
