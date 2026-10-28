@@ -289,14 +289,30 @@ The run log on my real mouse caught a bug the simulator could not. One early run
 
 ## Results
 
+### How my mouse was marked
+
+The course did not mark the maze by hand. It used an autograder on Gradescope. When I uploaded my code, the autograder ran it in the course physics simulator on five different mazes. Each maze had a different problem built in, like one motor being stronger than the other or the wheels slipping. This checks that the mouse still works when the hardware is not perfect.
+
+Each test was marked out of 100%, in three parts:
+
+| Part | Worth | How it is measured |
+|---|---|---|
+| The mission | 90% | Did the mouse find the room, spin a full circle in it, drive back to the start and sprint back to the room, without hitting a wall? |
+| Sprint speed bonus | 5% | The length of the sprint route divided by the time it took. 0.15 m/s or slower earns nothing, 0.30 m/s or faster earns the full 5%, and anything between earns part of it. |
+| Speedup bonus | 5% | How much faster the sprint is than the first time the mouse drove through while exploring. 1.35 times faster or more earns the full 5%. |
+
+The five test scores are then added up to a total out of 60.
+
+### My scores
+
 <p align="center">
-  <img src="docs/diagrams/results.png" width="620" alt="Gradescope results table with two columns, test and score. Test 1 baseline maze 97%. Test 2 motor bias plus 6% 98%. Test 3 non-convex path with bias minus 6% 97%. Test 4 wheel slip 4% 97%. Test 5 scalability arena 97%. Total 58.32 out of 60, which is 97.2%.">
-  <br><i>Figure 12. Gradescope results for my final solver.</i>
+  <img src="docs/diagrams/results.png" width="660" alt="Gradescope results. Test 1 baseline maze, a normal maze with healthy motors, 97%. Test 2 motor bias plus 6%, one motor is 6% stronger, 98%. Test 3 non-convex path with bias minus 6%, a winding route with the other motor stronger, 97%. Test 4 wheel slip 4%, 97%. Test 5 scalability arena, a bigger maze, 97%. Total 58.32 out of 60, which is 97.2%.">
+  <br><i>Figure 12. My Gradescope results.</i>
 </p>
 
-My mouse found the room, did the pirouette, returned home and finished the sprint on all five tests, with no collisions.
+My mouse got the full 90% for the mission on all five tests, with no collisions. It also got the full speedup bonus every time, because my sprint was about twice as fast as exploring. The only marks I lost were on the sprint speed bonus. My sprints ran at 0.199 to 0.229 m/s, which is about half way to the 0.30 m/s needed for the full bonus. That is why each test sits at 97% or 98% instead of 100%.
 
-On my real mouse, every turn settled within ±1.7 degrees of its target. The pirouette measured -358 degrees on the gyro with a final error of -0.7 degrees.
+On my real mouse, every turn settled within ±1.7 degrees of its target. The pirouette measured -358 degrees on the gyro, so it ended 0.7 degrees short of a perfect full circle.
 
 ## Limitations and next steps
 
