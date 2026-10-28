@@ -2,7 +2,7 @@
   <img src="docs/images/model_spin.webp" width="300" alt="A painted, Arcane-style 3D render of my micromouse slowly turning a full 360 degrees under a small floating royal crown with gold arches, a red velvet cap and a glowing orb and cross. The mouse has black tyres on white rims, yellow 3D printed motor brackets, a green sensor board at the front and the STM32 board on top.">
 </p>
 
-<h1 align="center">Micromouse</h1>
+<h1 align="center">My Micromouse Project</h1>
 
 <p align="center">
   A small robot that maps an unknown maze, finds a target room and sprints back to it, written in MicroPython for an STM32 board.<br>
