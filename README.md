@@ -345,8 +345,6 @@ Micromouse/
 └── .gitignore
 ```
 
-The source code will be added after December 2026 if the course allows it.
-
 ## Credits
 
 I did this project for EEE3097S at the University of Cape Town in 2026. The kit, the course firmware, the physics simulator and the autograder were provided by the course staff. Thank you to the classmate who lent me their mouse chassis after my motors failed. I used AI-assisted tools for parts of the coding and the documentation, but most of the planning and documenting was done by me.
