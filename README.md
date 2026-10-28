@@ -76,6 +76,8 @@ My hardware also failed during the project. The motors on my own mouse shorted a
 
 Let me take you through the journey as it happened.
 
+> **Watching the videos:** GitHub cannot play a video inside a README. The moving previews show a short clip of each one. Clicking a preview or a "Watch the video" button opens the video file in this repo, but GitHub may not play it there either. To watch the full video, click the three dots (**...**) at the top right of that page and choose **Download**, then open it on your computer.
+
 <table>
 <tr>
 <td width="44%" align="center" valign="top">
