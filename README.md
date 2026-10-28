@@ -302,7 +302,7 @@ On my real mouse, every turn settled within ±1.7 degrees of its target. The pir
 
 My sprint still stops and spins at every corner. The top sprint bonus needs 0.30 m/s, and my best safe result is about 0.21 m/s. Getting there needs smooth turns at speed, which needs better position sensing at the corners. The forward speed is also open loop, so it changes with the battery level.
 
-I have an experimental version that reads side walls while driving past each cell and maps a whole corridor from one front reading. In the simulator it cuts the mission time from 53.0 s to 40.4 s. It does not raise the grade, because the speedup bonus compares the sprint with exploring. My next steps are closed-loop wheel speed control, smooth turns while exploring, and combining the gyro and wheel angles during turns.
+I have an experimental version that reads side walls while driving past each cell and maps a whole corridor from one front reading. In the simulator it cuts the mission time from 53.0 s to 40.4 s. It does not raise the grade so I chose to rest after completing this hell rid-, I mean very fun engineering project :). So perhaps in the future, smooth turns while exploring, and combining the gyro and wheel angles during turns is worth improving.
 
 ## Repo structure
 
